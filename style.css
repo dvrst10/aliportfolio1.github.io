@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Smokum&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header a .w {
+    width: 20% !important;
+    background: transparent;
+}
+
+.logo {
+    font-family: 'Staatliches', cursive;
+    font-size: 40px;
+    color: #00C4F0;
+}
+.logo_img{
+    animation: anime infinite 5s linear;
+}
+@keyframes anime {
+    0%{
+        transform: rotate(0deg) translateX(10px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(1turn) translateX(10px) rotate(-1turn);
+        
+    }
+}
+header {
+    background: #161515;
+}
+
+header h1 {
+    color: #00C4F0;
+    font-size: 60px;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 8px;
+    margin-top: 100px !important;
+}
+
+.button {
+    color: black;
+    background: #00C4F0;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px 30px;
+    box-shadow: 0px 2px 13px 0px #00C4F0;
+    letter-spacing: 2px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #00C4F0;
+    display: block;
+    box-shadow: 0px 2px 13px 0px #00C4F0;
+    opacity: 1;
+}
+
+.p_1 {
+    color: #a9e7f5;
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0.795);
+    padding-bottom: 150px;
+}
+
+.h2_1 {
+    color: #00C4F0;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 4px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    padding-top: 150px;
+}
+section .img{
+    margin-top: 80px;
+    width: 100% !important;
+}
+
+section .img:hover {
+    animation-name: anim;
+    animation-direction: alternate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anim {
+    0% {
+        transform: translate(0px) scale(0.9);
+    }
+    100% {
+        transform: translateY(-50px) scale(1);
+    }
+}
+
+section h3 {
+    color: white;
+    font-size: 30px;
+    margin: auto;
+}
+section  .col-lg-3:hover .h3_1{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0px 11px 8px rgb(0, 0, 0);
+    transform: scale(1.1) ;
+    transition: 2s;
+    
+    
+}
+section .img_1{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section .img_1:hover {
+    animation: anim infinite 2s alternate;
+}
+
+.mt-6{
+    margin-top: 60px;
+}
+.card{
+    background-color: transparent !important;
+    border: 0px;
+    display: block;
+}
+.card-title{
+    color: white;
+    font-size: 40px !important;
+    margin: auto;
+}
+.card img{
+    padding: 1rem;
+    height: max-content;
+}
+.phonk{
+    margin-top: 80px;
+}
+.dvrstt h4{
+    padding-top: 30px;
+    color: white;
+}
+.dvrstt img{
+    margin-top: 150px;
+}
+.dvrstt img:hover{
+    animation: anim 2s infinite alternate;
+}
+.dvrstt .phonkk:hover h4{
+    padding-top: 30px;
+    color: #00C4F0;
+    text-shadow: 0px 11px 8px rgb(0, 0, 0);
+    transform: scale(1.1) ;
+    transition: 2s;
+}
+
+.phonkk img{
+    width: 80%;
+}
+
+main{
+    background-color: #161515;
+}
+.box{
+    margin-top: 100px;
+}
+.menu{
+    position: relative;
+    overflow: hidden;
+}
+.block{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+    opacity: 0;
+}
+.block:hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between !important;
+    font-size: 35px;
+    opacity: 1;
+    z-index: 1;
+}
+main .main_img{
+    border-radius: 0px 30px 30px 40px;
+    width: 100%;
+    height: 95%;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+    filter: grayscale(100%)
+}
+    
+.menu:hover img{
+    transform: scale(1.4);
+    filter: grayscale(0);
+    height: 90% !important;
+    border-radius: 0px 30px 30px 40px;
+}
+.fa-thumbs-up{
+    margin-right: 20px !important;
+    height: 60px;
+    padding: 10px !important;
+    padding-bottom: 10px !important;
+    border: 1px solid black;
+    color: black;
+    background-color: #00c4f080;
+    margin-top: 10px;
+}
+.fa-eye{
+    margin-left: 20px !important;
+    height: 60px !important;
+    padding: 10px !important;
+    border: 1px solid black;
+    color: black;
+    background-color: #00c4f080;
+    margin-top: 10px;    
+}
+.fa-eye:hover{
+    margin-left: 20px !important;
+    height: 60px !important;
+    padding: 10px !important;
+    border: 1px solid black;
+    color: white !important;
+    background-color: transparent;
+}
+.fa-thumbs-up:hover{
+    margin-right: 20px !important;
+    height: 60px;
+    padding: 10px !important;
+    border: 1px solid black;
+    color: white;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+.resume{
+    background-color: #070707;
+}
+
+
+.resume .content .center{
+    margin: auto;
+    width: 80%;
+    padding: 30px 50px;
+    background: #00c4f091;
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    position: relative;
+}
+
+.resume .content .center img{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 150px
+}
+
+.resume .content .center .info{
+    width: 100%;
+    text-decoration: underline;
+}
+
+.resume .content .center .info h2{
+    text-transform: uppercase;
+    font-size: 30px
+    
+}
+
+
+
+
+.resume .content .center h4, .resume .content .center h5{
+    flex-basis: 50%;
+    height: 100px
+}
+
+.content .center h4{
+    color: white;
+    font-size: 22px
+}
+
+
+
+.resume .content .center h5{
+    color: rgba(255, 255, 255, 0.664)
+}
+.contact .row_1 .fa-solid{
+    color: white;
+    padding: 10px !important;
+    border: o solid black;
+    border-radius: 50%;
+    background-color: #00C4F0;
+    font-size: 45px;
+}
+.contact .row_1 .con .contact-info{
+    color: #00C4F0;
+    background-color: white;
+    padding: 5px 15px;
+    border: 0px solid black;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 1;
+
+}
+.contact .row_2 .ice:hover .contact-info{
+    animation: shake 1s  !important;
+    opacity: 1;
+
+}
+
+.contact .row_2 .fa-brands{
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    background-color: #00C4F0;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.contact .row_2 .ice .contact-info{
+    color: #00C4F0;
+    background-color: white;
+    padding: 5px 15px;
+    border: 0px solid black;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0;
+
+}
+
+
+/* @keyframes animat {
+    
+} */
+@keyframes shake {
+    0%{
+        transform: translate(0);
+        width: 0%;
+        opacity: 0;
+    }
+    50%{
+        transform: translate(0);
+        width: 50%;
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0);
+        width: 100%;
+        opacity: 1;
+    }
+}
+@keyframes animate {
+    0%{
+        transform: translate(0);
+        width: 0%;
+        opacity: 0;
+    }
+    50%{
+        transform: translate(0);
+        width: 50%;
+        opacity: 0;
+    }
+    50%{
+        transform: translate(0);
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+    header h1{
+        letter-spacing: 0;
+    }
+    section .h3_1{
+        font-size: 20px;
+    }
+    section .h3_1:hover{
+        font-size: 22px !important;
+        transform: scale(1) !important;
+    }
+    section  .col-lg-3:hover .h3_1{
+        font-size: 24px !important;
+        color: white;
+        text-shadow: 0px 11px 8px rgb(0, 0, 0);
+        transform: scale(1.1) !important;
+        transition: 1s; 
+    }
+    .resume .content .center img{
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    section  .col-lg-3:hover .h3_1{
+        font-size: 24px !important;
+        color: white;
+        text-shadow: 0px 11px 8px rgb(0, 0, 0);
+        transform: scale(1.1) !important;
+        transition: 1s; 
+    }
+    header .all{
+        text-align: center !important;
+        margin: auto;
+    }
+    header h1{
+        letter-spacing: 3px;
+        text-align: center !important;
+        margin: 0px auto;
+        display: flex;
+        justify-content: center;
+    }
+    header .logo_img{
+        margin: 20px auto !important;
+        display: flex;
+        justify-content: center;
+        width: 90% !important;
+        margin-bottom: 0px;   
+        top: 0px !important;
+    }
+    .h3_1{
+        font-size: 23px !important;
+        margin: 10px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .h3_1:hover{
+        font-size: 24px !important;
+        transform: scale(1) !important;
+    }
+    .resume .content .center img{
+        display: none;
+    }
+}
+
+
+@media (max-width: 576px) {
+    header{
+        margin: auto !important;
+    }
+    header .all{
+        text-align: center !important;
+        margin: auto;
+        
+    }
+    header h1{
+        margin-top: 30px !important;
+        letter-spacing: 0;
+    }
+    .logo_img{
+        animation: none;
+    }
+    section .img{
+        width: 50% !important;
+        margin: 10px auto;
+        display: flex;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+    .img_1{
+        width: 50% !important;
+        margin: 10px auto;
+    }
+    .h3_1{
+        font-size: 27px !important;
+        margin: 5px auto;
+        display: flex;
+        justify-content: center;
+    }
+    section .col-lg-3:hover .h3_1{
+        font-size: 30px !important;
+        margin: 5px auto;
+        display: flex;
+        justify-content: center;
+    }
+    .phonkk img{
+        width: 60%;
+        margin: 50px auto !important;
+        display: flex;
+        justify-content: center;
+    }
+    .phonkk h4{
+        margin: 0px auto !important;
+        padding: 0px !important;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+    }
+    .dvrstt .phonkk h4{
+        padding-top: 5px;
+        color: white;
+        transition: 2s;
+    }
+    .dvrstt img:hover{
+        animation: anim 2s infinite alternate;
+    }
+    .resume .content .center img{
+        display: none;
+        position: absolute;
+        top: 10%;
+        right: 10%;
+        width: 150px
+        
+    }
+}
